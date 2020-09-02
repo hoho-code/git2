@@ -1,0 +1,143 @@
+/* 首页的样式 */
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  .nav_top {
+    background: rgb(23, 35, 61);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+    top: 0px;
+    z-index: 99;
+    position: fixed;
+    height: 36px;
+    font-size: 12px;
+  }
+  .nav_font {
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .msg {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: rgb(204, 204, 204);
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .nav_img {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 0px 200px;
+  }
+  .nav_img_one {
+    height: 220px;
+    width: 250px;
+  }
+  .nav_img_two {
+    width: 765px;
+    height: 220px;
+    margin-left: 5px;
+  }
+  .welcome {
+    padding: 10px;
+    color: rgb(204, 204, 204);
+    line-height: 20px;
+  }
+  .right {
+    margin: 8px 90px 0px 0px;
+  }
+  .left {
+    padding: 0px 0px 0px 80px;
+  }
+  #menu_nav {
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  #menu_nav div {
+    line-height: 40px;
+  }
+  #menu_nav .menu_nav_fl {
+    background: rgb(81, 90, 110);
+    width: 1020px;
+  }
+  #menu_nav li {
+    border-right: rgb(232, 234, 236) 1px solid;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #menu_nav a:visited {
+    color: white;
+  }
+  .table_st {
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  .td_left {
+    line-height: 45px;
+    background: rgb(248, 248, 249);
+    width: 300px;
+  }
+  .div_title {
+    color: rgb(43, 133, 228);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    border: rgb(220, 222, 226) 1px solid;
+  }
+  .div_body {
+    border: rgb(220, 222, 226) 1px solid;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 5px 0px 0px 10px;
+    background: rgb(248, 248, 249);
+    height: 140px;
+    border-top: none;
+  }
+  .td_one {
+    background-color: rgb(236, 237, 231);
+    width: 420px;
+    height: 50px;
+    font-size: 13px;
+  }
+  .td_two {
+    font-size: 13px;
+    width: 520px;
+    height: 50px;
+    background: rgb(255, 251, 255);
+  }
+  #td_title {
+    background: rgb(248, 248, 249);
+    width: 380px;
+    height: 45px;
+    border-bottom: rgb(102, 102, 102) 1px solid;
+  }
+  .td_title_fl {
+    font-size: 14px;
+    color: rgb(92, 173, 255);
+    font-weight: bold;
+  }
+  .more {
+    margin: 0px 0px 0px 260px;
+  }
+  .div_footer {
+    /* width: 90%; */
+    height: 200px;
+    margin: 0px 0px 0px 80px;
+  }
+  .div_footer_body {
+    border: rgb(220, 222, 226) 1px solid;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 5px 0px 0px 10px;
+    background: rgb(248, 248, 249);
+    height: 100px;
+    width: 1020px;
+  }
